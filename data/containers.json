@@ -1,0 +1,124 @@
+{
+    "app_id": "a0f4fcac0bd4a2c18a84ebde889901",
+    "collection_id": "e68485ad0bcaaaaef4d1adcf08",
+    "items": [
+        {
+            "assets": "51",
+            "battery": "95",
+            "icon": "https://image.flaticon.com/icons/svg/45/45880.svg",
+            "id": "container-1003",
+            "item_id": "011b277a-f47d-48f9-ae59-ca1cc36dca70",
+            "lat": 43.55284881591797,
+            "long": 7.017370223999023,
+            "positiontimestamp": "2018-03-21T07:32:51Z",
+            "shipment": "London to Cannes",
+            "status": "Complete"
+        },
+        {
+            "assets": "50",
+            "battery": "87",
+            "icon": "https://image.flaticon.com/icons/svg/45/45880.svg",
+            "id": "container-2345",
+            "item_id": "7295c4e5-01fb-4a5b-98ea-96f458919787",
+            "lat": 43.55284881591797,
+            "long": 7.017370223999023,
+            "positiontimestamp": "2018-03-21T07:32:51Z",
+            "shipment": "London to Cannes",
+            "status": "Complete"
+        },
+        {
+            "assets": "21",
+            "battery": "78",
+            "icon": "https://image.flaticon.com/icons/svg/45/45880.svg",
+            "id": "container-3567",
+            "item_id": "bc4555f0-897b-46ae-93d2-78777ec8192e",
+            "lat": 51.509864807128906,
+            "long": -0.11809200048446655,
+            "positiontimestamp": "2018-02-05T02:12:51Z",
+            "shipment": "Paris to London",
+            "status": "Complete"
+        },
+        {
+            "assets": "25",
+            "battery": "89",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "id": "container-1003",
+            "item_id": "c7c7590b-e3ae-4dd4-bf4e-d05149d96156",
+            "lat": 43.29695129394531,
+            "long": 5.381070137023926,
+            "positiontimestamp": "2018-04-13T08:52:51Z",
+            "shipment": "Cannes to Tokyo",
+            "status": "Active"
+        },
+        {
+            "assets": "51",
+            "battery": "93",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "id": "container-2345",
+            "item_id": "ec6dae43-3d02-4d79-bd4f-c4c2be190c03",
+            "lat": 43.29695129394531,
+            "long": 5.381070137023926,
+            "positiontimestamp": "2018-04-13T08:52:51Z",
+            "shipment": "Cannes to Tokyo",
+            "status": "Active"
+        }
+    ],
+    "name": "containers",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lat",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "long",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "positiontimestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "shipment",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "status",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "assets",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
