@@ -1,0 +1,74 @@
+{
+    "app_id": "a0f4fcac0bd4a2c18a84ebde889901",
+    "collection_id": "a2f4fcac0b9c95aaddf5e59ac044",
+    "items": [
+        {
+            "item_id": "2757b890-5950-486f-9c58-7a85a4c60e8f",
+            "property_name": "batterywarn",
+            "property_value": "40"
+        },
+        {
+            "item_id": "500b564e-c2a2-48fa-9835-f44c88c92462",
+            "property_name": "mappitch",
+            "property_value": "0"
+        },
+        {
+            "item_id": "53d533b6-ca47-4a7c-a47c-c1c8ee6e459a",
+            "property_name": "recordage",
+            "property_value": "45"
+        },
+        {
+            "item_id": "88a803df-f36b-4302-8769-94930a2c472d",
+            "property_name": "initialcenter",
+            "property_value": "[7.2148,43.6598]"
+        },
+        {
+            "item_id": "8d0f382f-a55d-4272-97df-21d21c189b76",
+            "property_name": "mapbox_api_key",
+            "property_value": "pk.eyJ1IjoicnJlaW5vbGQiLCJhIjoiY2lwOTllOGQ2MDB4Y2VhbnJnMWtzcW9qaiJ9.1mNTDQ5rwabgUL9onzaLxg"
+        },
+        {
+            "item_id": "9ccaef4b-a821-42a6-ae62-f8bfb1e64107",
+            "property_name": "finalzoom",
+            "property_value": "10"
+        },
+        {
+            "item_id": "b13be318-537f-4d6c-9afd-7a4baec72218",
+            "property_name": "finalcenter",
+            "property_value": "[7.2148,43.6598]"
+        },
+        {
+            "item_id": "c8dbae6c-0af7-486a-8bc9-c9d6b21d4b24",
+            "property_name": "transitionspeed",
+            "property_value": "3"
+        },
+        {
+            "item_id": "edb67290-ddf7-40e0-85c0-7336677cefde",
+            "property_name": "initialzoom",
+            "property_value": "10"
+        }
+    ],
+    "name": "application_properties",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 1,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "property_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "property_value",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
